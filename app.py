@@ -6,6 +6,9 @@ import numpy as np
 import pandas as pd
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
+import nltk
+nltk.download('punkt')
+nltk.download('punkt_tab')
 
 ps = PorterStemmer()
 
